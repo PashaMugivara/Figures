@@ -20,7 +20,7 @@ namespace TestProject
 		{
 			var triangle = new Triangle(3, 4, 5);
 			double result = 6;
-			var square = triangle.Square();
+			var square = FigureSquare.Square(triangle);
 			Assert.AreEqual(result, square);
 		}
 		[TestMethod]

@@ -10,5 +10,6 @@ namespace ClassLibrary1
             Name = name;
         }
         public abstract double Square();
+
     }
 }
